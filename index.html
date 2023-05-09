@@ -1,33 +1,198 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en"><head>
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="particles-js"></div>
-<div class="login-box">
-  <h2>Dashboard Access</h2>
-  <form>
-    <div class="user-box">
-      <input type="text" name="" required="">
-      <label>Username</label>
-    </div>
-    <div class="user-box">
-      <input type="password" name="" required="">
-      <label>Password</label>
-    </div>
-    <a href="#">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      Login
-    </a>
-  </form>
-  <script src="particles.js"></script>
-</div>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log in</title>
+    <link rel="shortcut icon" type="image/icon" href="images/logo.svg">
+    <!-- Custom fonts for this template -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    
+<style>
+	 html
+	   {
+	   	height: 100%;
+
+	   }
+
+	   body
+	   {
+	   	min-height: 100%;
+	   	position: relative;
+	   	margin:0;
+	   	height: 100%;
+	   	width: 100%;
+	    overflow: hidden;
+        font-family: "Sofia", sans-serif;
+	   }
+	</style></head>
+	
+<body style="background-image: url('bg.png');">
+	<div class="parent_logsign">
+ 		<div class="child">
+ 			<div class="container">
+ 				<div class="logn_form  pn">
+	 				<div class="bottom_circe_desing">
+		 				<div class="col-md-6 hidden-xs hidden-sm log_left_col5 pn">
+		 					<div class="left_page_text">
+		 						<!-- <h3>hgerwkjyre</h3>
+		 						<p>
+		 							<span>kjvdbsjhghugdew</span>
+		 							is a global INTERIOR DESIGNER platform &amp; social net working where 
+		 							business and independent professionals connect and callaborate remotety
+		 						</p> -->
+		 					</div>
+		 					<div class="left_page_img">
+		 						<img class="img-responsive" src="https://media.istockphoto.com/id/1179843237/vector/living-room-with-christmas-decoration.webp?s=1024x1024&w=is&k=20&c=GeJvaJLf-aAotOV1qBPd9Q_t8JSCXATN20-vIYoHiEY=" alt="layer">
+		 					</div>
+		 				</div>
+	 					<div class="col-md-1"></div>
+		 				<div class="col-md-5 pn">
+		 					<!-- log in form -->
+		 					<div class="board long_sign_tabing">
+            					<!-- start tab navigation -->
+				                <div class="long_sign_btn">
+				                    <ul class="nav nav-tabs custom_tab" id="myTab">
+				                        <li class="">
+				                            <a href="#sign_up" class="sign_up_btn" data-toggle="tab" title="sign up" aria-expanded="false">
+				                                <span class="tab_name">
+				                                    sign up
+				                                </span>
+				                            </a>
+				                        </li>
+				                        <li class="active">
+				                            <a href="#login" class="login_up_btn" data-toggle="tab" title="log in" aria-expanded="false">
+				                               <span class="tab_name">
+				                                    sign in
+				                                </span>
+				                            </a>
+				                        </li>
+				                    </ul>
+				                </div>
+            					<!-- end tab navigation -->
+				                <!-- start tab content -->
+				                <div class="tab-content log_sing_tab_content custom_tab_content col-md-12 pn">
+				                    <div class="tab-pane fade active in" id="login">
+				                    	<p class="sign_log_headeing">sign in</p>
+				                    	<div class="main_logform">
+				                    		<form>
+				                    			<div class="inputwrapper user_icon">
+				                    				<input class="form-control" type="text" placeholder="User Name">
+				                    			</div>
+				                    			<div class="inputwrapper passwrd_icon">
+				                    				<input class="form-control" type="password" placeholder="password">
+				                    			</div>
+				                    			<div class="reme_forget">
+						                    		<div class="col-md-6 col-xs-6 pn">
+						                    			<p class="remember">
+						                    				<input type="radio" name="radio-btn">
+						                    				Remember me
+						                    			</p>
+						                    		</div>
+						                    		<div class="col-md-6 col-xs-6 pn">
+						                    			<p class="forget">
+						                    				<a href="">Forget Password?</a>
+						                    			</p>
+						                    		</div>
+				                    			</div>
+				                    			<div class="col-md-12 col-sm-12 col-xs-12 pn">
+				                    				<button class="sign_in_button mt-1">
+				                    					sign in
+				                    				</button>
+				                    			</div>
+				                    		</form>
+				                    		<div class="col-md-12 col-sm-12 col-xs-12 pn mt-1 res_padd_bottom">
+				                    			<p class="chose_one_text">
+				                    				choose one of the following sign in methods 
+				                    			</p>
+				                    			<button class="sign_in_button logwit_f">
+				                    					<i class="fa fa-facebook" aria-hidden="true"></i>
+				                    					With Facebook
+				                    			</button>
+				                    			<button class="sign_in_button logwit_g">
+				                    				<i class="fa fa-google-plus" aria-hidden="true"></i>
+				                    					With Google +
+				                    			</button>
+				                    		</div>
+				                    	</div>
+				                    </div>
+				                    <div class="tab-pane fade" id="sign_up">
+				                        <p class="sign_log_headeing">sign up</p>
+				                    	<div class="main_logform">
+				                    		<form>
+				                    			<div class="inputwrapper user_icon">
+				                    				<input class="form-control" type="text" placeholder="Full Name">
+				                    			</div>
+				                    			<div class="inputwrapper email_icon">
+				                    				<input class="form-control" type="email" placeholder="Email ID">
+				                    			</div>
+				                    			<div class="inputwrapper phone_icon">
+				                    				<input class="form-control" type="number" placeholder="Mobile No.">
+				                    			</div>
+				                    			<div class="inputwrapper passwrd_icon">
+				                    				<input class="form-control" type="Password" placeholder="Password">
+				                    			</div>
+				                    			<div class="inputwrapper designer_icon">
+				                    				<input class="form-control" type="text" placeholder="I'm a designer">
+				                    			</div>
+				                    			<div class="reme_forget">
+						                    		<div class="col-md-12 col-xs-12 pn">
+						                    			<p class="remember">
+						                    				<input type="radio" name="radio-btn">
+						                    				I accepct the Term of Use &amp; privacy policy by clicking Get Started
+						                    			</p>
+						                    		</div>
+						                    	</div>
+						                    	<div class="col-md-12 col-sm-12 col-xs-12 pn mt-1 res_padd_bottom">
+					                    			<button class="pull-left sign_in_button logwit_g">
+					                    				Get started
+					                    			</button>
+				                    			</div>
+				                    		</form>
+				                    	</div>
+				                    </div>
+				                </div>
+				                <!-- end tab content -->
+           					</div>
+		 					<!-- end log form -->
+		 				</div>
+	 				</div>
+	 			</div>
+ 			</div>
+ 		</div>
+ 		<div class="copy_right_footer log_sign_footer">
+           <div class="container">
+               <div class="col-md-6 pn">
+                   <p><i class="fa fa-copyright" aria-hidden="true"></i> &copy Vikram. Webdesign.</p>
+               </div>
+               <div class="col-md-6">
+                   <div class="footer_socil_icon">
+                       <i class="fa fa-facebook" aria-hidden="true"></i>
+                       <i class="fa fa-twitter" aria-hidden="true"></i>
+                       <i class="fa fa-linkedin" aria-hidden="true"></i>
+                   </div>
+               </div>
+           </div>
+   		</div>
+   	</div>
+   	<script src="js/jquery.min.js"></script>
+    <script src="js/simple-scroll-follow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+ 	
 </body>
 </html>
